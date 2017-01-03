@@ -1,4 +1,6 @@
 /*
+* Some portion of this is from
+* FloatingWindowDemo - PopupMainActivity.java
 * Copyright 2013 Luke Klinker
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
