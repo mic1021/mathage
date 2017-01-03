@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="help_version"
+        android:title="@string/help_version"
+        android:enabled="false" />
+    <Preference
+        android:key="help_tutorial"
+        android:title="@string/help_tutorial" />
+    <Preference
+        android:key="help_support"
+        android:title="@string/help_support"
+        android:summary="@string/help_support_desc" />
+    <Preference
+        android:key="help_powered_by"
+        android:layout="@layout/row_help_myscript" />
+    <Preference
+        android:key="help_trademark"
+        android:summary="@string/trademark" />
+
+</PreferenceScreen>

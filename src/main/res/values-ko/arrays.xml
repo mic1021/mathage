@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_kb_theme_entries">
+        <item>홀로 블루(Holo Blue)</item>
+        <item>홀로 화이트(Holo White)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mathAge</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_export_latex">Export as LaTeX</string>
+    <string name="action_export_image">Export as Image</string>
+    <string name="action_search">Search in Wolfram|Alpha</string>
+    <string name="action_help">Help</string>
+
+    <string name="pref_palmRejectionLeft">Left-handed</string>
+    <string name="pref_palmRejectionLeft_summ">Ignore touch by left palm(Right palm if unchecked)</string>
+    <string name="pref_hotkey">Enable hotkey</string>
+    <string name="pref_hotkey_summ">Keyboard shortcut for easy and fast keyboard switching(Blank to disable)</string>
+    <string name="pref_kb_theme_title">Keyboard Theme</string>
+    <string name="pref_kb_theme_default" translatable="false">klp</string>
+    <string name="pref_appList_summ">Select apps you\'d like to view LaTeX on and use keyboard hotkey(Leave all unchecked to select all)</string>
+    <string name="pref_appList">Enabled app list</string>
+
+    <string name="help_version">Version</string>
+    <string name="help_tutorial">Tutorial</string>
+    <string name="help_support">Support</string>
+    <string name="help_support_desc">Documentation, Frequently Asked Questions, Contact Us</string>
+    <string name="powered_by" translatable="false">Powered by MyScript</string>
+    <string name="trademark">Wolfram|Alpha is a registered trademark of Wolfram Alpha LLC. mathAge is not affiliated with or endorsed by Wolfram|Alpha LLC.</string>
+
+    <string name="please_wait">Please Wait</string>
+
+    <string name="tutorial_open_acc">Open Accessibility</string>
+    <string name="tutorial_open_im">Open Input Method</string>
+
+    <string name="alert_welcome_title">Welcome!</string>
+    <string name="alert_welcome_message">Do you want to view tutorial?</string>
+
+    <string name="app_icon_desc">App Icon</string>
+
+    <string name="accessibility_service_description">Allows mathAge to recognize LaTeX on screen and keyboard hotkey.\n\nDemo : \\[x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\]\n\nNote: If screen filter or similar is enabled, button may not work.</string>
+
+    <string name="edittext_hint">Touch to append</string>
+    <string name="edittext_hint_insert">Touch to insert</string>
+
+    <string name="clipboard">Copy to clipboard</string>
+    <string name="text_copied">Text copied to clipboard.</string>
+
+    <string name="storage">Save to storage</string>
+    <string name="storage_copied">Saved to storage:\u0020</string>
+
+    <string name="alert_eula_title">End User License Agreement</string>
+    <string name="alert_enable_title">Accessibility service or input method not enabled</string>
+    <string name="alert_enable_message">You have to enable accessibility service and input method to use mathAge features. Do you want to view tutorial?</string>
+    <string name="button_no_tutorial">Don\'t show again</string>
+
+    <string-array name="tutorial">
+        <item>To use mathAge features, you have to enable:\n1. Accessibility Service</item>
+        <item>To use mathAge features, you have to enable:\n2. Input Method</item>
+    </string-array>
+</resources>

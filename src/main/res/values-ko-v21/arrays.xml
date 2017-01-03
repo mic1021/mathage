@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_kb_theme_entries">
+        <item>머터리얼 라이트(Material Light)</item>
+        <item>머터리얼 다크(Material Dark)</item>
+        <item>홀로 블루(Holo Blue)</item>
+        <item>홀로 화이트(Holo White)</item>
+    </string-array>
+</resources>

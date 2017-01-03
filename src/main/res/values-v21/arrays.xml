@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_kb_theme_entries">
+        <item>Material Light</item>
+        <item>Material Dark</item>
+        <item>Holo Blue</item>
+        <item>Holo White</item>
+    </string-array>
+    <string-array name="pref_kb_theme_values" translatable="false">
+        <item>lxx</item>
+        <item>lxx_dark</item>
+        <item>ics</item>
+        <item>klp</item>
+    </string-array>
+</resources>

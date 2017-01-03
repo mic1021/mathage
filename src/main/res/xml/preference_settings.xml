@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_palmRejectionLeft"
+        android:title="@string/pref_palmRejectionLeft"
+        android:summary="@string/pref_palmRejectionLeft_summ"
+        android:defaultValue="false" />
+    <ListPreference
+        android:key="pref_kb_theme"
+        android:title="@string/pref_kb_theme_title"
+        android:defaultValue="@string/pref_kb_theme_default"
+        android:entries="@array/pref_kb_theme_entries"
+        android:entryValues="@array/pref_kb_theme_values" />
+    <EditTextPreference
+        android:key="pref_hotkey"
+        android:title="@string/pref_hotkey"
+        android:summary="@string/pref_hotkey_summ"
+        android:defaultValue="=" />
+    <Preference
+        android:key="pref_appList"
+        android:title="@string/pref_appList"
+        android:summary="@string/pref_appList_summ" />
+
+</PreferenceScreen>

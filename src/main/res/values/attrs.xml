@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MathJaxView">
+        <attr name="hintText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="MathInsideKeyboardView">
+        <attr name="themeName" format="string" />
+        <attr name="keyboard_background" format="reference" />
+        <attr name="key_text_color" format="reference" />
+        <attr name="btn_keyboard_key" format="reference" />
+    </declare-styleable>
+</resources>

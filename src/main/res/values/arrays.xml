@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_kb_theme_entries">
+        <item>Holo Blue</item>
+        <item>Holo White</item>
+    </string-array>
+    <string-array name="pref_kb_theme_values" translatable="false">
+        <item>ics</item>
+        <item>klp</item>
+    </string-array>
+</resources>

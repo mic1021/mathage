@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar" />
+
+    <style name="Theme.FloatingWindow.Popup" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">stateUnchanged</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@style/PopupAnimation</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="lxx" parent="android:Theme.Material.InputMethod">
+        <item name="themeName">lxx</item>
+        <item name="keyboard_background">@drawable/keyboard_background_lxx_light</item>
+        <item name="key_text_color">@color/key_text_color_lxx_light</item>
+        <item name="btn_keyboard_key">@drawable/btn_keyboard_key_lxx_light</item>
+    </style>
+
+    <style name="lxx_dark" parent="android:Theme.Material.InputMethod">
+        <item name="themeName">lxx_dark</item>
+        <item name="keyboard_background">@drawable/keyboard_background_lxx_dark</item>
+        <item name="key_text_color">@color/key_text_color_lxx_dark</item>
+        <item name="btn_keyboard_key">@drawable/btn_keyboard_key_lxx_dark</item>
+    </style>
+
+    <style name="ics" parent="android:Theme.Holo.InputMethod">
+        <item name="themeName">holo</item>
+        <item name="keyboard_background">@drawable/keyboard_background_holo</item>
+        <item name="key_text_color">@color/key_text_color_holo</item>
+        <item name="btn_keyboard_key">@drawable/btn_keyboard_key_ics</item>
+    </style>
+
+    <style name="klp" parent="android:Theme.Holo.InputMethod">
+        <item name="themeName">holo</item>
+        <item name="keyboard_background">@drawable/keyboard_background_holo</item>
+        <item name="key_text_color">@color/key_text_color_holo</item>
+        <item name="btn_keyboard_key">@drawable/btn_keyboard_key_klp</item>
+    </style>
+
+</resources>
